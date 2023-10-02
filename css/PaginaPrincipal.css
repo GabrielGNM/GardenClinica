@@ -1,10 +1,43 @@
 main{
+    z-index: 1;
     display: flex;
-    align-items: center;
-    padding-top: 120px;
-}
-
-.tratamentos h1{
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-top: 140px;
+    
+}
+
+main h1{
+    padding-top: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.tratamentos{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width:  -webkit-fill-available;
+
+}
+.elementoTratamento{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+    flex: 0 0 33.33%; /* Crescimento, encolhimento e base. Isso significa que cada item ocupará 1/3 da largura total do container. */
+    box-sizing: border-box;
+    max-width: 33%;
+}
+
+.tratamentos img{
+    height: 80px;
+}
+
+figcaption {
+    text-align: center;
 }
