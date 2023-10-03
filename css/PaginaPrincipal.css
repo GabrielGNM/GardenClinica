@@ -20,6 +20,7 @@ main h1{
     flex-wrap: wrap;
     justify-content: center;
     width:  -webkit-fill-available;
+    background-color: rgb(206, 245, 223);
 
 }
 .elementoTratamento{
