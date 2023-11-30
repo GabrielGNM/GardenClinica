@@ -470,12 +470,15 @@ Preloader Area CSS
 	transform: scaleX(1);
 }
 .section{
-	padding:100px 0;
+	padding:5px 0;
+	max-width: 100%;
 }
 .section-title{
 	text-align: center;
     margin-bottom: 60px;
-    padding: 0 250px;
+    padding: 0 150px;
+	width: 1200px;
+	border: 0 auto;
 }
 .section-title h2 {
 	font-size: 32px;
@@ -494,6 +497,10 @@ Preloader Area CSS
 .overlay{
 	position:relative;
 }
+.col-lg-12-L{
+
+}
+
 .overlay:before{
 	position:absolute;
 	content:"";

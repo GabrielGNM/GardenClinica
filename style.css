@@ -52,7 +52,7 @@ body{
     font-family: 'Poppins', sans-serif;
 	font-weight: 400;
 	font-size:14px;
-	color:#888;
+	color:#fff;
 }
 #scrollUp {
 	bottom: 15px;
@@ -191,6 +191,16 @@ body{
 .header .top-link{
 	float:left;
 }
+.fa-instagram{
+	color: #22A241;
+	margin-right: 8px;
+}
+
+.fa-angle-double-down{
+color: #22A241;
+width: 50px;
+}
+
 .header .top-link li{
 	display:inline-block;
 	margin-right:15px;
@@ -3899,11 +3909,16 @@ body{
 ===========================*/
 .footer{
 	position:relative;
+	text-align: center;
+	justify-content: center;
 }
 .footer .footer-top{
-	padding:100px 0px;
+	padding:20px;
+	justify-content: baseline;
 	position:relative;
 	background:#22A241;
+	height: 80%;
+
 }
 .footer .footer-top:before{
 	position:absolute;
@@ -3914,6 +3929,7 @@ body{
 	width:100%;
 	background:#000;
 	opacity:0.1;
+	
 }
 .footer .single-footer{
 	
@@ -3940,12 +3956,16 @@ body{
 	display: block;
 	color:#fff;
 	font-size: 16px;
+	justify-content: center;
 }
 .footer .single-footer .social li a:hover{
 	color:#22A241;
 	background:#fff;
+
 	border-color:transparent;
 }
+
+
 .footer .single-footer .social li a i{
 	
 }
