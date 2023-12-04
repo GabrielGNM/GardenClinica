@@ -4121,6 +4121,18 @@ width: 50px;
 	display:inline-block;
 	margin-left:4px;
 }
+
+.imagesp2 {
+	object-fit: cover; 
+    height: 560.88px;
+    width: 350px;
+}
+
+.row{
+     display: flex;
+	 justify-content: center;
+	 align-items: center;
+}
 /*=========================
 	End Footer CSS
 ===========================*/
