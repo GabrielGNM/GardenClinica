@@ -54,6 +54,13 @@ body{
 	font-size:14px;
 	color:#fff;
 }
+#data-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    border: 1px solid #ccc;
+    max-width: 400px;
+    margin: 20px auto;
+}
 #scrollUp {
 	bottom: 15px;
 	right: 15px;
