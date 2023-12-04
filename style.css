@@ -4128,6 +4128,11 @@ width: 50px;
     width: 350px;
 }
 
+
+.espaco{
+height: 100px;
+}
+
 .row{
      display: flex;
 	 justify-content: center;
