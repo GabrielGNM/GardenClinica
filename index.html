@@ -750,9 +750,19 @@
 
 
 		</div>
-		
-		
-		
+
+	<!-- Botão "Agendar Consulta" -->
+    <button id="agendar-consulta-btn"><i class="far fa-clock"></i> Agendar Consulta</button>
+
+    <!-- Caixa de diálogo (modal) para o chatbox -->
+    <div id="chatbox-modal">
+        <span id="fechar-chatbox">&times;</span>
+        <div id="conversa"></div>
+        <input type="text" id="mensagem-input" placeholder="Digite sua mensagem...">
+        <button id="enviar-btn" onclick="enviarMensagem()"><img src="./img/paperplane.png" class="fas fa-paper-plane"></button>
+    </div>
+
+
 		
 		  <!-- Footer Area -->
 		  <footer id="footer" class="footer ">
@@ -850,8 +860,7 @@
         <script src="js/jquery.nav.js"></script>
 		<!-- Slicknav JS -->
 		<script src="js/slicknav.min.js"></script>
-		<!-- ScrollUp JS -->
-        <script src="js/jquery.scrollUp.min.js"></script>
+	
 		<!-- Niceselect JS -->
 		<script src="js/niceselect.js"></script>
 		<!-- Tilt Jquery JS -->
@@ -872,5 +881,6 @@
 		<script src="js/bootstrap.min.js"></script>
 		<!-- Main JS -->
 		<script src="js/main.js"></script>
+		<script src="chatbox.js"></script>
     </body>
 </html>
