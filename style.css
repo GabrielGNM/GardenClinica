@@ -4128,7 +4128,12 @@ width: 50px;
     width: 350px;
 }
 
-.row{
+
+.espaco{
+height: 100px;
+}
+
+.esp{
      display: flex;
 	 justify-content: center;
 	 align-items: center;
