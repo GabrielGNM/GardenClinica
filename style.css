@@ -827,13 +827,14 @@ width: 50px;
 	border-color:transparent;
 }
 .Feautes .single-features h3{
-	padding-top: 128px;
+	padding-top: 25px;
 	color:#2C2D3F;
 	font-weight:600;
 	font-size:21px;
 }
 .Feautes .single-features p {
 	margin-top: 20px;
+	padding-bottom: 25px;
 }
 /*=============================
 	End Feautes CSS
@@ -4265,3 +4266,68 @@ height: 100px;
         #enviar-btn:hover {
             background-color: #22A241;
         }
+
+
+
+/*Beneficios */
+.beneficios{
+	width: 100px;
+	border-radius: ;
+	
+}
+
+/*slider espaço da clínica */
+
+
+
+
+
+#slideshow-container {
+	max-width: 600px;
+	position: relative;
+	margin: auto;
+	overflow: hidden;
+}
+
+.mySlides {
+	display: none;
+	width: 100%;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+#prev {
+	left: 20px;
+}
+
+#prev, #next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: 5%;
+	max-width: 30px;
+	padding: 16px;
+	margin-top: -22px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+	background-color: rgba(0, 0, 0, 0.5);
+	border: none;
+	outline: none;
+}
+
+#next {
+	right: 20px;
+	border-radius: 3px 0 0 3px;
+}
+
+#prev:hover, #next:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
