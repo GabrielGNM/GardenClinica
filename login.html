@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Clínica Garden</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Bem-Vindo de volta!! </h2>
+        <form id="loginForm">
+            <label for="username">Email:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="button" onclick="validateLogin()">Entrar</button> <br>
+
+        </form>
+        
+       
+
+        <p id="error-message" class="error-message"></p>
+        <a class="cadast" href="cadastro.html">Cadastar</a>
+    </div>
+
+   
+
+    <script src="login.js"></script>
+</body>
+</html>
