@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
         window.location.href = "PowerBi.html";
       } else {
         // O usuário não está logado, redirecionar para Login.html
-        window.location.href = "Login.html";
+        window.location.href = "login.html";
       }
     });
   });
