@@ -15,3 +15,9 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
   });
+
+  document.getElementById("ButtonSair").addEventListener("click", function () {
+    // Remover user do SessionStorage
+    sessionStorage.removeItem("user");
+    window.location.href = "index.html";
+  })
