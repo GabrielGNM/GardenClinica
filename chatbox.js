@@ -43,6 +43,7 @@ function enviarMensagem() {
 document.getElementById('agendar-consulta-btn').addEventListener('click', function() {
     // Mostra a caixa de diálogo (modal) ao clicar no botão
     document.getElementById('chatbox-modal').style.display = 'block';
+    document.getElementById('agendar-consulta-btn').style.display = 'none';
 
     // Exibe as mensagens na caixa de conversa ao abrir o chatbox
     exibirMensagens();
@@ -52,4 +53,5 @@ document.getElementById('agendar-consulta-btn').addEventListener('click', functi
 document.getElementById('fechar-chatbox').addEventListener('click', function() {
     // Fecha a caixa de diálogo (modal) ao clicar no botão de fechar
     document.getElementById('chatbox-modal').style.display = 'none';
+    document.getElementById('agendar-consulta-btn').style.display = 'block';
 });
