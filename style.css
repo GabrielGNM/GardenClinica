@@ -55,6 +55,7 @@ body{
 	color:#fff;
 }
 #scrollUp {
+	display: none;
 	bottom: 15px;
 	right: 15px;
 	padding: 10px 20px;
@@ -243,9 +244,10 @@ width: 50px;
 	width:100%;
 }
 .get-quote{
-	margin-top:12px;
+	display: flex;
 }
 .get-quote .btn{
+	margin: 10px;
 	color:#fff;
 }
 .header .logo {
@@ -826,13 +828,14 @@ width: 50px;
 	border-color:transparent;
 }
 .Feautes .single-features h3{
-	padding-top: 128px;
+	padding-top: 25px;
 	color:#2C2D3F;
 	font-weight:600;
 	font-size:21px;
 }
 .Feautes .single-features p {
 	margin-top: 20px;
+	padding-bottom: 25px;
 }
 /*=============================
 	End Feautes CSS
@@ -4001,15 +4004,7 @@ width: 50px;
 	text-transform:capitalize;
 	position:relative;
 }
-.footer .single-footer h2::before{
-	position: absolute;
-	content: "";
-	left: 0;
-	bottom: 0px;
-	height: 3px;
-	width: 50px;
-	background: #fff;
-}
+
 .footer .single-footer .time-sidual{
 	margin-top:15px;
 }
@@ -4133,7 +4128,7 @@ width: 50px;
 height: 100px;
 }
 
-.esp{
+.row{
      display: flex;
 	 justify-content: center;
 	 align-items: center;
@@ -4141,3 +4136,192 @@ height: 100px;
 /*=========================
 	End Footer CSS
 ===========================*/
+
+/*css chatbox*/
+#agendar-consulta-btn {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	padding: 10px 20px;
+	background-color: #22A241; /* Cor de fundo azul */
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+	transition: background-color 0.3s ease;
+	z-index: 10;
+}
+
+#agendar-consulta-btn:hover{
+	background-color: #2C2D3F;
+	color: #fff;
+}
+
+.calendar{
+	margin-right: 5px;
+}
+
+ /* Estilo para a caixa de diálogo (modal) */
+ #chatbox-modal {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 5px;
+	height: 300px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	width: 300px;
+	z-index: 11;
+}
+
+#fechar-chatbox {
+	position: absolute;
+	top: 10px;
+	padding: auto;
+	right: 10px;
+	cursor: pointer;
+	color: #000;
+}
+
+
+        /* Estilo para a caixa de conversa */
+        #conversa {
+            max-height: 225px; /* Aumentada a altura máxima da caixa de conversa */
+            overflow-y: auto;
+            margin-bottom: 10px;
+        }
+
+        /* Estilo para as mensagens na caixa de conversa */
+        .mensagem {
+            padding: 10px;
+            margin-bottom: 5px;
+            border-radius: 5px;
+        }
+
+        /* Estilo para mensagens enviadas pelo usuário */
+        .mensagem-usuario {
+            background-color: #8e8b8b;
+            color: #fff;
+        }
+
+        /* Estilo para mensagens recebidas */
+        .mensagem-recebida {
+            background-color: #22A241;
+        }
+
+        /* Estilo para o campo de entrada de mensagem */
+		#mensagem-input {
+            width: 225px;
+            padding: 5px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            position: absolute;
+            bottom: 3px;
+			left: 15px;
+			right: 2px;
+        }
+
+        /* Estilo para o botão de enviar */
+        #enviar-btn {
+            width: 15px;
+            padding: 5px;
+            background-color: #22A241;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+			position: absolute;
+			right: 10px;
+            bottom: 19px;
+        }
+
+        #enviar-btn:hover {
+            background-color: #22A241;
+        }
+
+
+
+		#enviar-btn {
+            width: 40px;
+            padding: 5px;
+            background-color: #22A241;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            display: inline-block; /* Permite o posicionamento ao lado do campo de entrada */
+        }
+
+        #enviar-btn:hover {
+            background-color: #22A241;
+        }
+
+
+
+/*Beneficios */
+.beneficios{
+	width: 100px;
+	border-radius: ;
+	
+}
+
+/*slider espaço da clínica */
+
+
+
+
+
+#slideshow-container {
+	max-width: 600px;
+	position: relative;
+	margin: auto;
+	overflow: hidden;
+}
+
+.mySlides {
+	display: none;
+	width: 100%;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+#prev {
+	left: 20px;
+}
+
+#prev, #next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: 5%;
+	max-width: 30px;
+	padding: 16px;
+	margin-top: -22px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+	background-color: rgba(0, 0, 0, 0.5);
+	border: none;
+	outline: none;
+}
+
+#next {
+	right: 20px;
+	border-radius: 3px 0 0 3px;
+}
+
+#prev:hover, #next:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+}
